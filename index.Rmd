@@ -391,7 +391,7 @@ class: inverse, center, middle
 - Esto no es robusto a un reordenamiento de las observaciones. Sirve para "ver" algunos casos.
 --
 
-- `slice`(`r text_spec2("<df>")`, `r text_spec2("<nro_variable>")`, `r text_spec2("<nro_variable>")`)
+- `slice`(`r text_spec2("<df>")`, `r text_spec2("<nro_fila>")`, `r text_spec2("<nro_fila>")`)
 <br><br>
 --
 
@@ -790,18 +790,18 @@ knitr::include_graphics("img/fd1.png")
 ---
 # Crear proyecto
 
-![](https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/create_project.gif){height = 80%}
+<img src="https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/create_project.gif" width="850" height="450"/>
 
 ---
 # Abrir proyecto
 
-![](https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/open_project.gif)
+<img src="https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/open_project.gif" width="850" height="450"/>
+
 
 ---
 # Crear script
 
-![](https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/create_file.gif)
-
+<img src="https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/create_file.gif" width="850" height="450"/>
 
 ---
 # Ejercicio (5')
@@ -809,10 +809,6 @@ knitr::include_graphics("img/fd1.png")
 .left-column[
 ```{r out.width = "80px" ,echo=FALSE}
 knitr::include_graphics("https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/folder.png")
-```
-<br><br>
-```{r out.width = "80px" ,echo=FALSE}
-knitr::include_graphics("https://raw.githubusercontent.com/calcita/Curso-rECH/master/images/zipper-tool.png")
 ```
 <br><br>
 ```{r out.width = "80px" ,echo=FALSE}
@@ -828,17 +824,12 @@ knitr::include_graphics("https://raw.githubusercontent.com/calcita/Curso-rECH/ma
 .rigth-column[
 <br><br>
 Crear una carpeta llamada "Curso ECH"
+<br><br>
 
-<br>
-
-<!-- Descomprimir allí los archivos de la ECH 2018 y llamar "data" a la carpeta que contiene los archivos -->
-
-<br>
-
-Abrir Rstudio y crear un proyecto. Observa dónde se creó el ícono .Rproj
+Abrir Rstudio y crear un proyecto. Elegir como directorio la carpeta recién creada.
 
 <br><br>
-Crear un script de R donde guardaremos el código de este taller
+Crear un script de R donde guardaremos el código de este taller. Agregar a la carpeta los materiales del curso.
 
 
 ]
